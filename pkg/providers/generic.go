@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/types"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/types"
 	"golang.org/x/oauth2"
 )
 

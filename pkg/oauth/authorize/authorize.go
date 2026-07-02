@@ -7,10 +7,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/encryption"
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/handlerutils"
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/providers"
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/types"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/encryption"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/handlerutils"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/providers"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/types"
 )
 
 type AuthorizationStore interface {

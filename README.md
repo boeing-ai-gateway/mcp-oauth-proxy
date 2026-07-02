@@ -79,12 +79,12 @@ OAuth credentials (Client ID and Client Secret) are used by the proxy to authent
 
 ### 2. Setup Your MCP Server
 
-The OAuth proxy requires a streamable HTTP MCP server. Example using Obot's Gmail MCP server:
+The OAuth proxy requires a streamable HTTP MCP server. Example using Boeing's Gmail MCP server:
 
 ```bash
-git clone https://github.com/obot-platform/tools
+git clone https://github.com/boeing-ai-gateway/tools
 cd google/gmail
-uv run python -m obot_gmail_mcp.server
+uv run python -m boeing_gmail_mcp.server
 ```
 
 This starts the server at `http://localhost:9000/mcp/gmail`.
@@ -101,12 +101,12 @@ docker run -d --name mcp-oauth-proxy -p 8080:8080 \
   -e SCOPES_SUPPORTED="openid,email,profile,https://www.googleapis.com/auth/gmail.readonly" \
   -e MCP_SERVER_URL="http://localhost:9000/mcp/gmail" \
   -e ENCRYPTION_KEY="your-encryption-key" \
-  ghcr.io/obot-platform/mcp-oauth-proxy:latest
+  ghcr.io/boeing-ai-gateway/mcp-oauth-proxy:latest
 ```
 
 #### Option B: CLI Binary
 
-1. Download from [GitHub Releases](https://github.com/obot-platform/mcp-oauth-proxy/releases)
+1. Download from [GitHub Releases](https://github.com/boeing-ai-gateway/mcp-oauth-proxy/releases)
 2. Run with environment variables:
 
 ```bash

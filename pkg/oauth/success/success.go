@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/handlerutils"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/handlerutils"
 )
 
 // Handler handles the MCP UI authentication success page

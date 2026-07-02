@@ -8,9 +8,9 @@ const config: Config = {
   title: 'MCP OAuth Proxy',
   tagline: '',
   favicon: 'img/favicon.ico',
-  url: 'https://obot-platform.github.io',
+  url: 'https://boeing-ai-gateway.github.io',
   baseUrl: '/mcp-oauth-proxy/',
-  organizationName: 'obot-platform',
+  organizationName: 'boeing-ai-gateway',
   projectName: 'mcp-oauth-proxy',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,7 +26,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/obot-platform/mcp-oauth-proxy/tree/main/docs',
+          editUrl: 'https://github.com/boeing-ai-gateway/mcp-oauth-proxy/tree/main/docs',
           routeBasePath: "/", // Serve the docs at the site's root
         },
         theme: {
@@ -46,7 +46,7 @@ const config: Config = {
       },
       items: [
         {
-          href: "https://github.com/obot-platform/mcp-oauth-proxy",
+          href: "https://github.com/boeing-ai-gateway/mcp-oauth-proxy",
           label: "GitHub",
           position: "right",
         },
@@ -57,7 +57,7 @@ const config: Config = {
       links: [
         {
           label: "GitHub",
-          to: "https://github.com/obot-platform/mcp-oauth-proxy",
+          to: "https://github.com/boeing-ai-gateway/mcp-oauth-proxy",
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} OBot Platform`,

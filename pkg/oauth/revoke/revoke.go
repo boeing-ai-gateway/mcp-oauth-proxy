@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/handlerutils"
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/types"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/handlerutils"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/types"
 )
 
 type Store interface {

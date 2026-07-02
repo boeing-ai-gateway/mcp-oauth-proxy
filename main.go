@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/obot-platform/mcp-oauth-proxy/cmd"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/cmd"
 )
 
 func main() {

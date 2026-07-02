@@ -10,7 +10,7 @@ import (
 
 	"github.com/MicahParks/keyfunc/v3"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/types"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/types"
 )
 
 // ErrInvalidTokenFormat is returned when the token format is not recognized.

@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/types"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/types"
 )
 
 func TestAPIKeyValidator_ValidateAPIKey(t *testing.T) {

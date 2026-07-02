@@ -77,10 +77,10 @@ The OAuth proxy requires a streamable HTTP MCP server to proxy requests to. Your
 **Example MCP Server Setup:**
 
 ```bash
-# Example using Obot's Gmail MCP server
-git clone https://github.com/obot-platform/tools
+# Example using Boeing's Gmail MCP server
+git clone https://github.com/boeing-ai-gateway/tools
 cd google/gmail
-uv run python -m obot_gmail_mcp.server
+uv run python -m boeing_gmail_mcp.server
 ```
 
 This will start the server at http://localhost:9000/mcp/gmail.
@@ -112,14 +112,14 @@ docker run -d --name mcp-oauth-proxy -p 8080:8080 \
   -e SCOPES_SUPPORTED="openid,email,profile,https://www.googleapis.com/auth/gmail.readonly" \
   -e MCP_SERVER_URL="http://localhost:9000/mcp/gmail" \
   -e ENCRYPTION_KEY="your-encryption-key" \
-  ghcr.io/obot-platform/mcp-oauth-proxy:latest
+  ghcr.io/boeing-ai-gateway/mcp-oauth-proxy:latest
 ```
 
 #### Option B: CLI Binary
 
 1. **Download Latest Release**:
 
-   - Go to [GitHub Releases](https://github.com/obot-platform/mcp-oauth-proxy/releases)
+   - Go to [GitHub Releases](https://github.com/boeing-ai-gateway/mcp-oauth-proxy/releases)
    - Download the appropriate binary for your platform (Linux, macOS, Windows)
 
 2. **Run with Environment Variables**:
@@ -212,8 +212,8 @@ You can now test your setup by using vscode MCP.
 
 These are the example mcp servers that run with the proxy to integrate with external services.
 
-- [Gmail MCP Server](https://github.com/obot-platform/tools/tree/main/google/gmail)
-- [Google Drive MCP Server](https://github.com/obot-platform/tools/tree/main/google/drive)
-- [Google Calendar MCP Server](https://github.com/obot-platform/tools/tree/main/google/calendar)
-- [Google Sheets MCP Server](https://github.com/obot-platform/tools/tree/main/google/sheets)
-- [Outlook MCP Server](https://github.com/obot-platform/tools/tree/main/microsoft365/outlook-mcp)
+- [Gmail MCP Server](https://github.com/boeing-ai-gateway/tools/tree/main/google/gmail)
+- [Google Drive MCP Server](https://github.com/boeing-ai-gateway/tools/tree/main/google/drive)
+- [Google Calendar MCP Server](https://github.com/boeing-ai-gateway/tools/tree/main/google/calendar)
+- [Google Sheets MCP Server](https://github.com/boeing-ai-gateway/tools/tree/main/google/sheets)
+- [Outlook MCP Server](https://github.com/boeing-ai-gateway/tools/tree/main/microsoft365/outlook-mcp)

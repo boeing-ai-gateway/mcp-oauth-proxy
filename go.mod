@@ -1,4 +1,4 @@
-module github.com/obot-platform/mcp-oauth-proxy
+module github.com/boeing-ai-gateway/mcp-oauth-proxy
 
 go 1.25.0
 

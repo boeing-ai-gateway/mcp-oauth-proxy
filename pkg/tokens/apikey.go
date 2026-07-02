@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/obot-platform/mcp-oauth-proxy/pkg/types"
+	"github.com/boeing-ai-gateway/mcp-oauth-proxy/pkg/types"
 )
 
 // APIKeyValidator validates API keys by calling the authentication webhook.
